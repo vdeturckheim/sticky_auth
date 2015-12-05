@@ -4,7 +4,7 @@ const Validate = require('./lib/validate');
 const Controller = require('./lib/controller');
 
 
-module.exports.register = (server, options, next) => {
+module.exports.register = function (server, options, next) {
 
     server.register( Basic , ( _ignore ) => {
 
