@@ -1,0 +1,27 @@
+{
+  "name": "sticky_auth",
+  "version": "0.0.0",
+  "description": "Auth module for sticky",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/api -c -L -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/sticky_auth.git"
+  },
+  "author": "Vladimir de Turckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/sticky_auth/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/sticky_auth#readme",
+  "dependencies": {
+    "hapi-auth-basic": "^4.1.0"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "glue": "^2.4.0",
+    "lab": "^8.0.0"
+  }
+}
