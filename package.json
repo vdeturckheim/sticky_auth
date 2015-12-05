@@ -1,6 +1,6 @@
 {
   "name": "sticky_auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auth module for sticky",
   "main": "index.js",
   "scripts": {
